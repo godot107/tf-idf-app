@@ -11,7 +11,7 @@ import math
 import warnings
 warnings.filterwarnings("ignore", category=pd.errors.SettingWithCopyWarning)
 
-dataminingdf = pd.read_csv('../data/mlarticles.csv')
+dataminingdf = pd.read_csv('./data/mlarticles.csv')
 
 sp = spacy.load('en_core_web_sm')
 
